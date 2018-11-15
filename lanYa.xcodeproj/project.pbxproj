@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		269735D3219D5E2400F8C278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269735D2219D5E2400F8C278 /* AppDelegate.swift */; };
+		269735D5219D5E2400F8C278 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269735D4219D5E2400F8C278 /* ViewController.swift */; };
+		269735D8219D5E2400F8C278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269735D6219D5E2400F8C278 /* Main.storyboard */; };
+		269735DA219D5E2600F8C278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269735D9219D5E2600F8C278 /* Assets.xcassets */; };
+		269735DD219D5E2600F8C278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269735DB219D5E2600F8C278 /* LaunchScreen.storyboard */; };
+		269735E8219D5E2600F8C278 /* lanYaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269735E7219D5E2600F8C278 /* lanYaTests.swift */; };
+		269735F3219D5E2600F8C278 /* lanYaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269735F2219D5E2600F8C278 /* lanYaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		269735E4219D5E2600F8C278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269735C7219D5E2400F8C278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269735CE219D5E2400F8C278;
+			remoteInfo = lanYa;
+		};
+		269735EF219D5E2600F8C278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269735C7219D5E2400F8C278 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269735CE219D5E2400F8C278;
+			remoteInfo = lanYa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		269735CF219D5E2400F8C278 /* lanYa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lanYa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269735D2219D5E2400F8C278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		269735D4219D5E2400F8C278 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		269735D7219D5E2400F8C278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		269735D9219D5E2600F8C278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269735DC219D5E2600F8C278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		269735DE219D5E2600F8C278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269735E3219D5E2600F8C278 /* lanYaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lanYaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		269735E7219D5E2600F8C278 /* lanYaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lanYaTests.swift; sourceTree = "<group>"; };
+		269735E9219D5E2600F8C278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269735EE219D5E2600F8C278 /* lanYaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lanYaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		269735F2219D5E2600F8C278 /* lanYaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lanYaUITests.swift; sourceTree = "<group>"; };
+		269735F4219D5E2600F8C278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		269735CC219D5E2400F8C278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269735E0219D5E2600F8C278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269735EB219D5E2600F8C278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		269735C6219D5E2400F8C278 = {
+			isa = PBXGroup;
+			children = (
+				269735D1219D5E2400F8C278 /* lanYa */,
+				269735E6219D5E2600F8C278 /* lanYaTests */,
+				269735F1219D5E2600F8C278 /* lanYaUITests */,
+				269735D0219D5E2400F8C278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		269735D0219D5E2400F8C278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269735CF219D5E2400F8C278 /* lanYa.app */,
+				269735E3219D5E2600F8C278 /* lanYaTests.xctest */,
+				269735EE219D5E2600F8C278 /* lanYaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269735D1219D5E2400F8C278 /* lanYa */ = {
+			isa = PBXGroup;
+			children = (
+				269735D2219D5E2400F8C278 /* AppDelegate.swift */,
+				269735D4219D5E2400F8C278 /* ViewController.swift */,
+				269735D6219D5E2400F8C278 /* Main.storyboard */,
+				269735D9219D5E2600F8C278 /* Assets.xcassets */,
+				269735DB219D5E2600F8C278 /* LaunchScreen.storyboard */,
+				269735DE219D5E2600F8C278 /* Info.plist */,
+			);
+			path = lanYa;
+			sourceTree = "<group>";
+		};
+		269735E6219D5E2600F8C278 /* lanYaTests */ = {
+			isa = PBXGroup;
+			children = (
+				269735E7219D5E2600F8C278 /* lanYaTests.swift */,
+				269735E9219D5E2600F8C278 /* Info.plist */,
+			);
+			path = lanYaTests;
+			sourceTree = "<group>";
+		};
+		269735F1219D5E2600F8C278 /* lanYaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				269735F2219D5E2600F8C278 /* lanYaUITests.swift */,
+				269735F4219D5E2600F8C278 /* Info.plist */,
+			);
+			path = lanYaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		269735CE219D5E2400F8C278 /* lanYa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269735F7219D5E2600F8C278 /* Build configuration list for PBXNativeTarget "lanYa" */;
+			buildPhases = (
+				269735CB219D5E2400F8C278 /* Sources */,
+				269735CC219D5E2400F8C278 /* Frameworks */,
+				269735CD219D5E2400F8C278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lanYa;
+			productName = lanYa;
+			productReference = 269735CF219D5E2400F8C278 /* lanYa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		269735E2219D5E2600F8C278 /* lanYaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269735FA219D5E2600F8C278 /* Build configuration list for PBXNativeTarget "lanYaTests" */;
+			buildPhases = (
+				269735DF219D5E2600F8C278 /* Sources */,
+				269735E0219D5E2600F8C278 /* Frameworks */,
+				269735E1219D5E2600F8C278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				269735E5219D5E2600F8C278 /* PBXTargetDependency */,
+			);
+			name = lanYaTests;
+			productName = lanYaTests;
+			productReference = 269735E3219D5E2600F8C278 /* lanYaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		269735ED219D5E2600F8C278 /* lanYaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269735FD219D5E2600F8C278 /* Build configuration list for PBXNativeTarget "lanYaUITests" */;
+			buildPhases = (
+				269735EA219D5E2600F8C278 /* Sources */,
+				269735EB219D5E2600F8C278 /* Frameworks */,
+				269735EC219D5E2600F8C278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				269735F0219D5E2600F8C278 /* PBXTargetDependency */,
+			);
+			name = lanYaUITests;
+			productName = lanYaUITests;
+			productReference = 269735EE219D5E2600F8C278 /* lanYaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		269735C7219D5E2400F8C278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lixcx.sq;
+				TargetAttributes = {
+					269735CE219D5E2400F8C278 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					269735E2219D5E2600F8C278 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 269735CE219D5E2400F8C278;
+					};
+					269735ED219D5E2600F8C278 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 269735CE219D5E2400F8C278;
+					};
+				};
+			};
+			buildConfigurationList = 269735CA219D5E2400F8C278 /* Build configuration list for PBXProject "lanYa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 269735C6219D5E2400F8C278;
+			productRefGroup = 269735D0219D5E2400F8C278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269735CE219D5E2400F8C278 /* lanYa */,
+				269735E2219D5E2600F8C278 /* lanYaTests */,
+				269735ED219D5E2600F8C278 /* lanYaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269735CD219D5E2400F8C278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269735DD219D5E2600F8C278 /* LaunchScreen.storyboard in Resources */,
+				269735DA219D5E2600F8C278 /* Assets.xcassets in Resources */,
+				269735D8219D5E2400F8C278 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269735E1219D5E2600F8C278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269735EC219D5E2600F8C278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		269735CB219D5E2400F8C278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269735D5219D5E2400F8C278 /* ViewController.swift in Sources */,
+				269735D3219D5E2400F8C278 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269735DF219D5E2600F8C278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269735E8219D5E2600F8C278 /* lanYaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269735EA219D5E2600F8C278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269735F3219D5E2600F8C278 /* lanYaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		269735E5219D5E2600F8C278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269735CE219D5E2400F8C278 /* lanYa */;
+			targetProxy = 269735E4219D5E2600F8C278 /* PBXContainerItemProxy */;
+		};
+		269735F0219D5E2600F8C278 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269735CE219D5E2400F8C278 /* lanYa */;
+			targetProxy = 269735EF219D5E2600F8C278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		269735D6219D5E2400F8C278 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269735D7219D5E2400F8C278 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		269735DB219D5E2600F8C278 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269735DC219D5E2600F8C278 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		269735F5219D5E2600F8C278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		269735F6219D5E2600F8C278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		269735F8219D5E2600F8C278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA8BKD8QG7;
+				INFOPLIST_FILE = lanYa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lanya.lanYa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		269735F9219D5E2600F8C278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA8BKD8QG7;
+				INFOPLIST_FILE = lanYa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lanya.lanYa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		269735FB219D5E2600F8C278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA8BKD8QG7;
+				INFOPLIST_FILE = lanYaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lanya.lanYaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lanYa.app/lanYa";
+			};
+			name = Debug;
+		};
+		269735FC219D5E2600F8C278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA8BKD8QG7;
+				INFOPLIST_FILE = lanYaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lanya.lanYaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lanYa.app/lanYa";
+			};
+			name = Release;
+		};
+		269735FE219D5E2600F8C278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA8BKD8QG7;
+				INFOPLIST_FILE = lanYaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lanya.lanYaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lanYa;
+			};
+			name = Debug;
+		};
+		269735FF219D5E2600F8C278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA8BKD8QG7;
+				INFOPLIST_FILE = lanYaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lanya.lanYaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lanYa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269735CA219D5E2400F8C278 /* Build configuration list for PBXProject "lanYa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269735F5219D5E2600F8C278 /* Debug */,
+				269735F6219D5E2600F8C278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269735F7219D5E2600F8C278 /* Build configuration list for PBXNativeTarget "lanYa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269735F8219D5E2600F8C278 /* Debug */,
+				269735F9219D5E2600F8C278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269735FA219D5E2600F8C278 /* Build configuration list for PBXNativeTarget "lanYaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269735FB219D5E2600F8C278 /* Debug */,
+				269735FC219D5E2600F8C278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269735FD219D5E2600F8C278 /* Build configuration list for PBXNativeTarget "lanYaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269735FE219D5E2600F8C278 /* Debug */,
+				269735FF219D5E2600F8C278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 269735C7219D5E2400F8C278 /* Project object */;
+}
