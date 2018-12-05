@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		261E57BD21A3A12C00A4190E /* CommonBlueToothProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E57BC21A3A12C00A4190E /* CommonBlueToothProtocol.swift */; };
 		269735D3219D5E2400F8C278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269735D2219D5E2400F8C278 /* AppDelegate.swift */; };
 		269735D5219D5E2400F8C278 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269735D4219D5E2400F8C278 /* ViewController.swift */; };
 		269735D8219D5E2400F8C278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269735D6219D5E2400F8C278 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		269735DD219D5E2600F8C278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269735DB219D5E2600F8C278 /* LaunchScreen.storyboard */; };
 		269735E8219D5E2600F8C278 /* lanYaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269735E7219D5E2600F8C278 /* lanYaTests.swift */; };
 		269735F3219D5E2600F8C278 /* lanYaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269735F2219D5E2600F8C278 /* lanYaUITests.swift */; };
+		4F34582621A5089000235AAB /* ccccc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F34582521A5089000235AAB /* ccccc.c */; };
+		E0032C968D368E7ADBECAADA /* Pods_lanYa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E09B4DAEA1382C99654B4CB /* Pods_lanYa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E09B4DAEA1382C99654B4CB /* Pods_lanYa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lanYa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		261E57BC21A3A12C00A4190E /* CommonBlueToothProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonBlueToothProtocol.swift; sourceTree = "<group>"; };
 		269735CF219D5E2400F8C278 /* lanYa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lanYa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		269735D2219D5E2400F8C278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		269735D4219D5E2400F8C278 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		269735EE219D5E2600F8C278 /* lanYaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lanYaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		269735F2219D5E2600F8C278 /* lanYaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lanYaUITests.swift; sourceTree = "<group>"; };
 		269735F4219D5E2600F8C278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		332A3CBAC24799B610A7EDEF /* Pods-lanYa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lanYa.release.xcconfig"; path = "Target Support Files/Pods-lanYa/Pods-lanYa.release.xcconfig"; sourceTree = "<group>"; };
+		4E838F60DAAD8CEAC1C0493C /* Pods-lanYa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lanYa.debug.xcconfig"; path = "Target Support Files/Pods-lanYa/Pods-lanYa.debug.xcconfig"; sourceTree = "<group>"; };
+		4F34581E21A5063800235AAB /* lanYa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lanYa-Bridging-Header.h"; sourceTree = "<group>"; };
+		4F34582421A5089000235AAB /* ccccc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ccccc.h; sourceTree = "<group>"; };
+		4F34582521A5089000235AAB /* ccccc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ccccc.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0032C968D368E7ADBECAADA /* Pods_lanYa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,8 @@
 				269735E6219D5E2600F8C278 /* lanYaTests */,
 				269735F1219D5E2600F8C278 /* lanYaUITests */,
 				269735D0219D5E2400F8C278 /* Products */,
+				F8F19E82E7CA91F6DF5D4062 /* Pods */,
+				52D5CCD61F2A2104681CB510 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +116,10 @@
 				269735D9219D5E2600F8C278 /* Assets.xcassets */,
 				269735DB219D5E2600F8C278 /* LaunchScreen.storyboard */,
 				269735DE219D5E2600F8C278 /* Info.plist */,
+				261E57BC21A3A12C00A4190E /* CommonBlueToothProtocol.swift */,
+				4F34581E21A5063800235AAB /* lanYa-Bridging-Header.h */,
+				4F34582421A5089000235AAB /* ccccc.h */,
+				4F34582521A5089000235AAB /* ccccc.c */,
 			);
 			path = lanYa;
 			sourceTree = "<group>";
@@ -125,6 +142,24 @@
 			path = lanYaUITests;
 			sourceTree = "<group>";
 		};
+		52D5CCD61F2A2104681CB510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E09B4DAEA1382C99654B4CB /* Pods_lanYa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8F19E82E7CA91F6DF5D4062 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E838F60DAAD8CEAC1C0493C /* Pods-lanYa.debug.xcconfig */,
+				332A3CBAC24799B610A7EDEF /* Pods-lanYa.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 269735F7219D5E2600F8C278 /* Build configuration list for PBXNativeTarget "lanYa" */;
 			buildPhases = (
+				B38E1D2BC5C0F43D520364F0 /* [CP] Check Pods Manifest.lock */,
 				269735CB219D5E2400F8C278 /* Sources */,
 				269735CC219D5E2400F8C278 /* Frameworks */,
 				269735CD219D5E2400F8C278 /* Resources */,
+				34D572457C153EB52135E935 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +230,7 @@
 				TargetAttributes = {
 					269735CE219D5E2400F8C278 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1000;
 					};
 					269735E2219D5E2600F8C278 = {
 						CreatedOnToolsVersion = 10.1;
@@ -251,6 +289,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34D572457C153EB52135E935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lanYa/Pods-lanYa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lanYa/Pods-lanYa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B38E1D2BC5C0F43D520364F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lanYa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		269735CB219D5E2400F8C278 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +343,8 @@
 			files = (
 				269735D5219D5E2400F8C278 /* ViewController.swift in Sources */,
 				269735D3219D5E2400F8C278 /* AppDelegate.swift in Sources */,
+				261E57BD21A3A12C00A4190E /* CommonBlueToothProtocol.swift in Sources */,
+				4F34582621A5089000235AAB /* ccccc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,17 +517,23 @@
 		};
 		269735F8219D5E2600F8C278 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E838F60DAAD8CEAC1C0493C /* Pods-lanYa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UA8BKD8QG7;
+				DEVELOPMENT_TEAM = 9D8MHECBZ7;
 				INFOPLIST_FILE = lanYa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = lanya.lanYa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lanYa/lanYa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,17 +541,22 @@
 		};
 		269735F9219D5E2600F8C278 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332A3CBAC24799B610A7EDEF /* Pods-lanYa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UA8BKD8QG7;
+				DEVELOPMENT_TEAM = 9D8MHECBZ7;
 				INFOPLIST_FILE = lanYa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = lanya.lanYa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lanYa/lanYa-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
